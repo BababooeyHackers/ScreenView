@@ -19,4 +19,4 @@ $ sudo git clone https://github.com/BababooeyHackers/ScreenView.git
 
 ## Usage
 ### ScreenView.py
-This module can run on any Windows and MacOS. To configure the payload go to line 40 and replace IP with your IP.
+This module can run on Windows and MacOS. To configure the payload go to line 40 and replace IP with your IP.
