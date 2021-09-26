@@ -1,5 +1,5 @@
 # ScreenView
-Shadow Shark ScreenView Module.
+The Shadow Shark ScreenView Module.
 
 ## Installation
 ### Debian
