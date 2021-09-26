@@ -20,3 +20,10 @@ $ sudo git clone https://github.com/BababooeyHackers/ScreenView.git
 ## Usage
 ### ScreenView.py
 This module can run on Windows and MacOS. To configure the payload go to line 40 and replace IP with your IP.
+
+## Compilation
+This module must be compiled on a Windows computer, Wine environment, or MacOS computer.
+```
+# First install python3 on your Windows computer, Wine environment or MacOS computer.
+$ pip install pyinstaller
+$ pyinstaller --onefile --noconsole --icon icon.ico ScreenView.py
