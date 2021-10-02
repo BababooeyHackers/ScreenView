@@ -8,6 +8,8 @@ $ sudo apt-get install git apache2 php libapache2-mod-php
 $ sudo service apache2 start
 $ cd /var/www/html/
 $ sudo git clone https://github.com/BababooeyHackers/ScreenView.git
+$ cd ScreenView/
+$ pip3 install -r requirements.txt
 ```
 ### Arch
 ```
