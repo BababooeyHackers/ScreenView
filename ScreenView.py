@@ -38,9 +38,7 @@ def main():
     '''Do what send_screenshot does but for x amount of seconds.'''
     minutes = arguments[0]
     seconds =  minutes * 60
-    print(seconds)
     end_time = time.time() + seconds
-    print(end_time)
     try:
         print('[+] Running ScreenView.')
         while time.time() < end_time:
