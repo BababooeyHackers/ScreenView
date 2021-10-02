@@ -34,5 +34,5 @@ $ ScreenView.(exe, app, etc) --time (time in minutes to view the victim's screen
 This module must be compiled on a Linux computer, Windows computer, Wine environment, or MacOS computer.
 ```
 # First install python3 on your Linux computer, Windows computer, Wine environment, or MacOS computer.
-$ pip install -r requirements.txt
+$ pip(3) install -r requirements.txt
 $ pyinstaller --onefile --icon icon.ico ScreenView.py
