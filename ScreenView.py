@@ -19,9 +19,9 @@ def get_arguments():
     parser.add_argument('-u', '--url', dest='url', required=True, type=str,
                         help='The url to send the screenshot to.')
     options = parser.parse_args()
-    seconds = options.time
+    minutes = options.time
     url = options.url
-    return [seconds, url]
+    return [minutes, url]
 
 def send_screenshot():
     '''Get screenshot and send to website.'''
@@ -36,9 +36,11 @@ def send_screenshot():
 
 def main():
     '''Do what send_screenshot does but for x amount of seconds.'''
-    seconds = arguments[0]
-    minutes =  seconds * 60
-    end_time = time.time() + minutes
+    minutes = arguments[0]
+    seconds =  minutes * 60
+    print(seconds)
+    end_time = time.time() + seconds
+    print(end_time)
     try:
         print('[+] Running ScreenView.')
         while time.time() < end_time:
