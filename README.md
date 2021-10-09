@@ -4,19 +4,25 @@ The Shadow Shark ScreenView Module.
 ## Installation
 ### Debian
 ```
-$ sudo apt-get install git apache2 php libapache2-mod-php
+$ sudo apt-get install python3 python3-pip git apache2 php libapache2-mod-php
 $ sudo service apache2 start
 $ cd /var/www/html/
-$ sudo git clone https://github.com/BababooeyHackers/ScreenView.git
+$ sudo mkdir hacks
+$ sudo chmod 777 hacks
+$ cd hacks/
+$ git clone https://github.com/BababooeyHackers/ScreenView.git
 $ cd ScreenView/
 $ pip3 install -r requirements.txt
 ```
 ### Arch
 ```
-$ sudo pacman -S git apache php php-apache
+$ sudo pacman -S python python-pip git apache php php-apache
 $ sudo systemctl start httpd
 $ cd /srv/http/
-$ sudo git clone https://github.com/BababooeyHackers/ScreenView.git
+$ sudo mkdir hacks
+$ sudo chmod 777 hacks
+$ cd hacks/
+$ git clone https://github.com/BababooeyHackers/ScreenView.git
 $ cd ScreenView/
 $ pip3 install -r requirements.txt
 ```
