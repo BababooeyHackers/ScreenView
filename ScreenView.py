@@ -40,7 +40,7 @@ def main():
     seconds =  minutes * 60
     end_time = time.time() + seconds
     try:
-        print('[+] Running ScreenView.')
+        print('[*] Running ScreenView.')
         while time.time() < end_time:
             send_screenshot()
     except:
