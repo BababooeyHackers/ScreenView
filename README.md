@@ -12,6 +12,7 @@ $ sudo chmod 777 hacks
 $ cd hacks/
 $ git clone https://github.com/BababooeyHackers/ScreenView.git
 $ cd ScreenView/
+$ chmod 777 screenshot.txt
 $ pip3 install -r requirements.txt
 ```
 ### Arch
@@ -24,6 +25,7 @@ $ sudo chmod 777 hacks
 $ cd hacks/
 $ git clone https://github.com/BababooeyHackers/ScreenView.git
 $ cd ScreenView/
+$ chmod 777 screenshot.txt
 $ pip3 install -r requirements.txt
 ```
 
