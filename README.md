@@ -7,12 +7,9 @@ The <a href="https://github.com/MrSharkSpamBot/ShadowSharkReverseShell">Shadow S
 $ sudo apt-get install python3 python3-pip git apache2 php libapache2-mod-php
 $ sudo service apache2 start
 $ cd /var/www/html/
-$ sudo mkdir hacks
-$ sudo chmod 777 hacks
-$ cd hacks/
-$ git clone https://github.com/BababooeyHackers/ScreenView.git
+$ sudo git clone https://github.com/BababooeyHackers/ScreenView.git
+$ sudo chown -R www-data:www-data /var/www/html/ScreenView/
 $ cd ScreenView/
-$ chmod 777 screenshot.txt
 $ pip3 install -r requirements.txt
 ```
 ### Arch
