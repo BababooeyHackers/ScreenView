@@ -17,12 +17,9 @@ $ pip3 install -r requirements.txt
 $ sudo pacman -S python python-pip git apache php php-apache
 $ sudo systemctl start httpd
 $ cd /srv/http/
-$ sudo mkdir hacks
-$ sudo chmod 777 hacks
-$ cd hacks/
-$ git clone https://github.com/BababooeyHackers/ScreenView.git
+$ sudo git clone https://github.com/BababooeyHackers/ScreenView.git
+$ sudo chown -R www-data:www-data /var/www/html/ScreenView/
 $ cd ScreenView/
-$ chmod 777 screenshot.txt
 $ pip3 install -r requirements.txt
 ```
 
