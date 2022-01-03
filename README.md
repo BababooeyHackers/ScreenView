@@ -37,4 +37,3 @@ This module must be compiled on a Linux computer, Windows computer, Wine environ
 $ pip(3) install -r requirements.txt
 $ pyinstaller --onefile --icon icon.ico ScreenView.py
 ```
-
