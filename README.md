@@ -36,3 +36,5 @@ This module must be compiled on a Linux computer, Windows computer, Wine environ
 # First install python3 on your Linux computer, Windows computer, Wine environment, or MacOS computer.
 $ pip(3) install -r requirements.txt
 $ pyinstaller --onefile --icon icon.ico ScreenView.py
+```
+
