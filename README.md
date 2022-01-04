@@ -18,7 +18,7 @@ $ sudo pacman -S python python-pip git apache php php-apache
 $ sudo systemctl start httpd
 $ cd /srv/http/
 $ sudo git clone https://github.com/BababooeyHackers/ScreenView.git
-$ sudo chown -R www-data:www-data /var/www/html/ScreenView/
+$ sudo chown -R www-data:www-data /srv/http/ScreenView/
 $ cd ScreenView/
 $ pip3 install -r requirements.txt
 ```
